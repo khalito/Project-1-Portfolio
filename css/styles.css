@@ -1,9 +1,72 @@
+/*
+*
+*
+* Minor breakpoint to adjust text and icon size for medium-sized screen
+*
+*
+*/
+@media screen and (max-width: 991px) {
+    .text-thin.title-super {
+        font-size: 45px;
+    }
+
+    .title-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+/*
+*
+*
+* Minor breakpoint to adjust text and icon size for small-sized screen
+*
+*
+*/
+@media screen and (max-width: 600px) {
+    .text-thin.title-super {
+        font-size: 30px;
+    }
+
+    .title-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+/*
+*
+*
+* Default
+*
+*
+*/
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #747704;
     font-weight: 300;
 }
 
+hr {
+    height: 4px;
+    background-color: #BCBBBB;
+}
 
 .text-muted {
     color: #BCBBBB;
@@ -23,9 +86,7 @@ body {
     font-size: 60px;
 }
 
-
-hr {
-    /*margin: 20px 0px;*/
-    height: 4px;
-    background-color: #BCBBBB;
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
