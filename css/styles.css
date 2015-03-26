@@ -34,11 +34,17 @@
 @media screen and (max-width: 600px) {
     .text-thin.title-super {
         font-size: 30px;
+        text-align: center;
     }
 
     .title-logo {
         width: 70px;
         height: 70px;
+        margin: 20px auto;
+    }
+
+    .title-sub {
+        text-align: center;
     }
 
     h2 {
