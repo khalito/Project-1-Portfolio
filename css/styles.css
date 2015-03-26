@@ -15,12 +15,12 @@
         height: 100px;
     }
 
-    h3 {
-        font-size: 20px;
-    }
-
     h2 {
         font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
     }
 }
 
@@ -41,12 +41,12 @@
         height: 70px;
     }
 
-    h3 {
-        font-size: 20px;
-    }
-
     h2 {
         font-size: 18px;
+    }
+
+    h3 {
+        font-size: 20px;
     }
 }
 
@@ -65,11 +65,11 @@ body {
 
 hr {
     height: 4px;
-    background-color: #BCBBBB;
+    background-color: #bcbbbb;
 }
 
 .text-muted {
-    color: #BCBBBB;
+    color: #bcbbbb;
     padding-left: 15px;
 }
 
@@ -87,6 +87,5 @@ hr {
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
